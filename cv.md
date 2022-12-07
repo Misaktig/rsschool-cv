@@ -8,7 +8,13 @@
 I want to learn Front-End Development 
 ### Code example:
 ```
-
+function solution(str){
+ let n = ''
+  for(let i of str){
+    n = i+n
+  }
+  return n
+}
 ```
 ### Work experience:
     Content editor
